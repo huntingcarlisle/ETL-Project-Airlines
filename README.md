@@ -4,9 +4,10 @@
 Erin Babamoto | Divya Manthena | Isaac Mizrahi | Tess Palan
 
 ## Questions
-What are the top 5 most traveled to cities in the United States from 2019 - 2020? If you were to travel, what airline (top 5) would be recommended based on revenue?
+1. What are the top 5 most traveled to cities in the United States from 2019 - 2020?
+2. If you were to travel, what airline (top 5) would be recommended based on revenue?
 
-## *1. Extract*
+## *Extract*
 - Create path to read CSV
 - Import dataset into pandas - read CSV
 
@@ -19,7 +20,7 @@ Airline reviews:
 https://www.bts.gov/airline-rankings-2019
 
 
-## *2. Transform*
+## *Transform*
 - Merge both data sets (most traveled to cities and airline reviews) and drop columns we don’t need
   - Merging separate CVS for most traveled to cities dataset - 8 in total (1 for each quarter for years 2019 and 2020)
 - Filter the data and remove any NAs
@@ -28,7 +29,7 @@ https://www.bts.gov/airline-rankings-2019
   - Integer to float transformations
 - Data manipulation
 
-## *3. Load*
+## *Load*
 - Export clean CSV to SQL
   - Create database
   - Create table
